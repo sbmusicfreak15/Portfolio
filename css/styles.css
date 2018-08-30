@@ -1,0 +1,325 @@
+* { box-sizing : border-box; }
+
+/* About Me Section */
+
+a {
+  display : block;
+}
+
+.header {
+  display : block;
+}
+
+#about {
+  background-color : #fffeea;
+  color : #34495e;
+  padding-top : 120px;
+  padding-bottom : 140px;
+  padding-left : 50px;
+  padding-right : 50px;
+}
+
+h1 {
+  text-align : center;
+  font-weight : 900;
+  font-size : 60px;
+  padding-bottom : 100px;
+}
+
+.header-1 h1 {
+  font-family : "Lato";
+  text-align : center;
+  margin-bottom : 40px;
+}
+
+.intro p {
+  font-size : 1.05em;
+  font-weight : 100;
+  line-height: 2.5;
+  -webkit-margin-before : 0;
+}
+
+.column {
+  font-family : "Lato";
+}
+
+/* Contact Section */
+
+#contact {
+    background-image : url("../img/sanfran.jpg");
+    background-attachment : fixed;
+    background-size : cover;
+    color : white;
+    padding-top : 150px;
+    padding-bottom: 50px;
+}
+
+.col-1, .col-2  {
+    color : #654a4e;
+    font-family : "DomaineDisplayNarrow",Georgia,serif;
+    font-size : 1.6em;
+    line-height: 1.5;
+}
+
+.col-2 h3 {
+  font-size : 2.0em;
+}
+
+.header {
+  text-transform : uppercase;
+  font-family : Cambria, Segoe UI, sans-serif;
+  margin-bottom : 100px;
+  font-size : 1.5em;
+  background-color : #2f4f4f;
+  margin-right : 600px;
+  margin-left : 650px;
+  color : #5b6c5d;
+}
+
+.header-3 {
+  text-align : center;
+  color: #654a4e;
+  font-family: "DomaineDisplayNarrow",Georgia,serif;
+  margin-top : 30px;
+}
+
+body {
+  padding-top : 60px;
+  position : relative;
+}
+
+label {
+  color : inherit#000000;
+}
+
+#form_one {
+  padding-top : 80px;
+}
+
+#form_two {
+  margin-bottom : 100px;
+}
+
+/* List */
+
+.col li span:hover {
+    color : white;
+}
+
+/* Accordian FAQ */
+
+
+#accordion {
+  padding-bottom : 200px;
+  padding-top : 100px;
+}
+
+.container {
+  padding-top : 50px;
+  width : 100%;
+}
+
+#faq h2 {
+  font-family : Trebuchet MS;
+  font-weight : 800;
+  color : white;
+  font-size : 3.2em;
+}
+
+.card button {
+  font-family : Trebuchet MS;
+  font-weight : 800;
+  font-size : 2.7em;
+  color : white;
+}
+.card-body {
+  font-family : Verdana;
+  font-size : 1.5em;
+  color : white;
+}
+
+#faq {
+  text-align : center;
+  background-image : url("../img/meeting2.jpg");
+  background-attachment : fixed;
+  background-size : cover;
+  color : white;
+  padding-top: 100px;
+}
+
+/* carousel */
+
+.carousel-caption {
+  font-family : "Courier";
+  font-size : 4.5em;
+  font-weight : 400;
+  color : #292121;
+  padding-bottom : 150px;
+  line-height: 1.5;
+}
+
+.item img {
+  opacity : 0.5;
+  filter : alpha(opacity=50);
+}
+
+.item p {
+  text-transform : full-width;
+  vertical-align : text-top;
+}
+
+h3 {
+  text-align : center;
+  font-size : 3.5em;
+}
+
+#row {
+  padding : 100px 60px 100px;
+}
+
+#p1 p {
+  line-height : 2.8;
+}
+
+#p2 p {
+  line-height : 2.3;
+}
+
+#p3 p {
+  line-height : 3.4;
+}
+
+/* Skill List */
+
+.intro {
+  text-align : center;
+  font-size : 2.5em;
+  margin-left : 20px;
+}
+
+.image img {
+  width : 100%;
+}
+
+.skill {
+  background-color : #34495e;
+  color : #fff;
+  line-height : 3;
+  font-size : 1.2em;
+  padding-top : 50px;
+  padding-bottom: 45px;
+}
+
+/* Nav Bar */
+
+.nav {
+    font-family : "Courier";
+}
+
+.projectName a {
+  font-family : Courier;
+  color : grey;
+  text-transform : uppercase;
+  text-decoration : none;
+}
+
+.navbar {
+  padding-bottom : 10px;
+}
+
+header {
+  font-family : Courier;
+}
+
+.projectName a:hover {
+  color : white;
+}
+
+/* Kittens */
+
+#work {
+  padding-bottom : 100px;
+}
+
+/*  Video */
+
+.embed-responsive-16by9 {
+  margin-bottom : 70px;
+  margin-top : 100px;
+}
+
+/* Modal */
+
+#modal {
+  margin-left : 780px;
+  margin-top : 200px;
+}
+
+@media (min-width: 768px) {
+  .modal-button button {
+    float : right;
+  }
+}
+
+#modalembed {
+  height : 500px;
+  width : 100%;
+}
+
+/* Works Array */
+
+.work-img {
+  display : block; /* needed to center the element with margin */
+  margin : auto; /* center the image inside the column if it's smaller */
+  max-width : 200px; /* needs to be set to the width of your image files if they are relatively small */
+  position : relative; /* is needed for .info position: absolute to work */
+}
+
+.info {
+  display : none;
+  position : absolute; /* let's us move the text around and not worry about the image */
+  top : 15%; /* position the text 15% away from the top */
+  left : 22%;
+  font-family : "Muli";
+  text-transform : uppercase;
+  font-weight : 700;
+  letter-spacing : 0.5em;
+  line-height : 1.6;
+  color : black;
+}
+
+.proj-title {
+  font-weight : 100;
+  font-family : "Muli";
+  color : black;
+}
+
+/* javascript api */
+
+html body {
+  height : 100%;
+  margin : 0;
+  padding : 0;
+}
+
+#map {
+  width : 600;
+  height : 450px;
+}
+
+.workpage {
+  font-family : "Muli";
+  padding-top : 150px;
+  background-color : #5b6c5d;
+  padding-bottom : 100px;
+}
+
+.workpage h3{
+  padding-bottom : 75px;
+  color : white;
+  font-size : 5em;
+}
+
+#form_two {
+  background-color: #eaeaea;
+}

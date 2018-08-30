@@ -1,0 +1,89 @@
+* { box-sizing: border-box; }
+.con {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.header h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.intro {
+
+}
+.main-text {
+  padding-top: 60px;
+  clear: both;
+}
+.column {
+  float: left;
+  display: inline-block;
+  width: 33.33333333333333%;
+}
+.image img {
+  width:100%;
+}
+#skill_list {
+  margin-left: 125px;
+}
+.skill {
+  background-color: #5ad4c2;
+  color: #fff;
+}
+.nav ul li {
+  display: inline-block;
+}
+.nav {
+  background-color: #4fbfd1;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 20px 10px 20px;
+}
+.nav ul {
+  float: right;
+}
+.nav ul li a {
+  text-transform: uppercase;
+  letter-spacing: .20em;
+}
+body {
+  padding-top: 100px;
+}
+.nav a:hover {
+  color: #ff0;
+  text-decoration: none;
+}
+a {
+  -moz-transition: color 600ms;
+  -webkit-transition: color 600ms;
+  transition: color 600ms;
+  font-family: Helvetica;
+  color: grey;
+  text-decoration: none;
+  font-size: 18px;
+}
+/*Typography*/
+h1,
+h2,
+h3 {
+  font-family: Verdana, Helvetica;
+}
+p,
+li {
+  font-family: Georgia, Palatino, sans-serif;
+}
+.intro p {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  font-size: 3em;
+  font-weight: 100;
+  -webkit-margin-before:0;
+}
+.skill h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+body {
+  background-color:#fffeea;
+  color: #34495e;
+}
