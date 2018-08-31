@@ -1,22 +1,22 @@
 var works = [
   {
-    title: "First Project",
-    pic: "img/kitten.jpeg",
-    url: "google.com"
+    title: "Furniture Experience",
+    pic: "img/couch.jpg",
+    url: "https://furniture-experience.herokuapp.com/"
   },
   {
-    title: "Second Project",
-    pic: "img/shelly.jpg",
-    url: "google.com"
+    title: "Coming Soon!",
+    pic: "img/purple.jpg",
+    url: "#"
   },
   {
-    title: "Third Project",
-    pic: "img/sanfran2.jpg",
-    url: "google.com"
+    title: "Coming Soon!",
+    pic: "img/purple.jpg",
+    url: "#"
   },
   {
-    title: "Fourth Project",
-    pic: "img/sanfran3.jpg",
-    url: "google.com"
+    title: "Coming Soon!",
+    pic: "img/purple.jpg",
+    url: "#"
   }
 ];
