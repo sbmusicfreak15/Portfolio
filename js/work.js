@@ -5,14 +5,14 @@ var works = [
     url: "https://furniture-experience.herokuapp.com/"
   },
   {
-    title: "Coming Soon!",
-    pic: "img/purple.jpg",
-    url: "#"
+    title: "Chatty",
+    pic: "img/chatty2.png",
+    url: "https://chatty-chatty-bang-bang.herokuapp.com"
   },
   {
-    title: "Coming Soon!",
-    pic: "img/purple.jpg",
-    url: "#"
+    title: "Luna Trattoria *In Progress*",
+    pic: "img/rest2.jpg",
+    url: "https://luna-trattoria.netlify.com"
   },
   {
     title: "Coming Soon!",
