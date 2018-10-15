@@ -5,7 +5,7 @@ var works = [
     url: "https://furniture-experience.herokuapp.com/"
   },
   {
-    title: "Chatty",
+    title: "Chatty *In Progress*",
     pic: "img/chatty2.png",
     url: "https://chatty-chatty-bang-bang.herokuapp.com"
   },
