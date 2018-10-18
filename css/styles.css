@@ -59,6 +59,7 @@ h3 {
     color : white;
     padding-top : 150px;
     padding-bottom: 50px;
+    border-radius: 5px;
 }
 
 .col-1, .col-2  {
@@ -105,6 +106,7 @@ label {
 
 #form_two {
   margin-bottom : 100px;
+  border-radius: 5px;
 }
 
 ul li {
@@ -130,22 +132,26 @@ ul li {
 }
 
 #faq h2 {
-  font-family : Trebuchet MS;
-  font-weight : 800;
+  font-family: "Open Sans"
   color : white;
-  font-size : 3.2em;
+  font-size : 5.2em;
 }
 
 .card button {
-  font-family : Trebuchet MS;
-  font-weight : 800;
+  font-family: "Open Sans"
+  font-weight : 300;
   font-size : 2.7em;
-  color : white;
+  color : #f8f8f8;
+
 }
+
+.card button: hover {
+  text-decoration: none;
+}
+
 .card-body {
-  font-family : Verdana;
   font-size : 1.5em;
-  color : white;
+  color : #f8f8f8;
 }
 
 #faq {
@@ -159,8 +165,9 @@ ul li {
 
 .faq3 {
   background-color: #211103;
-  border-radius: 20px;
+  border-radius: 5px;
 }
+
 
 /* carousel */
 
@@ -223,6 +230,7 @@ h3 {
   font-size : 1.2em;
   padding-top : 20px;
   padding-bottom: 15px;
+  border-radius: 5px;
 }
 
 /* Nav Bar */
@@ -255,6 +263,7 @@ header {
 #work {
   padding-bottom : 100px;
   max-height: 100px;
+  border-radius: 5px;
 }
 
 /*  Video */
@@ -278,7 +287,7 @@ header {
 }
 
 #modalembed {
-  height : 700px;
+  height : 800px;
   width : 100%;
 }
 
@@ -323,7 +332,7 @@ html body {
 }
 
 .workpage {
-  font-family : "Muli";
+  font-family : "Open Sans";
   padding-top : 150px;
   background-color : #5b6c5d;
   padding-bottom : 100px;
@@ -341,4 +350,21 @@ html body {
 
 footer {
   margin-top: 5px;
+}
+
+.set {
+  border-radius: 5px;
+}
+
+.image {
+  border-radius: 5px;
+}
+
+
+.btn-link:focus {
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  text-decoration: none;
 }

@@ -45,11 +45,11 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Work <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="https://furniture-experience.herokuapp.com/">Furniture Experience E-commerce Site</a></li>
+                <li><a href="https://furniture-experience.herokuapp.com/" target="_blank">Furniture Experience E-commerce Site</a></li>
                 <li role="separator" class="divider"></li>
-                <li><a href="https://chatty-chatty-bang-bang.herokuapp.com">"Chatty" Social Media Site * In progress * </a></li>
+                <li><a href="https://chatty-chatty-bang-bang.herokuapp.com" target="_blank">"Chatty" Social Media Site * In progress * </a></li>
                 <li role="separator" class="divider"></li>
-                <li><a href="https://luna-trattoria.netlify.com">Restaurant Website * In progress * </a></li>
+                <li><a href="https://luna-trattoria.netlify.com" target="_blank">Restaurant Website * In progress * </a></li>
               </ul>
             </li>
           </ul>
@@ -117,7 +117,30 @@
       <div class="container">
         <div class="row" id="work">
         </div>
-      </div>
+        <div class="container">
+            <div class="col-sm">
+              <button type="button" class="btn btn-light" data-toggle="modal" data-target=".bd-example-modal2" class="modal-button" id="modal">Furniture Experience Case Study</button>
+            </div>
+        </div><!-- end container -->
+        <!-- Modal -->
+        <div class="modal fade bd-example-modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="exampleModalLabel">Furniture Experience Case Study</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div><!-- end modal-header -->
+              <div class="modal-body">
+                <embed id="modalembed" src="img/case_study_c.pdf">
+              </div><!-- end modal-body -->
+            </div><!-- end modal-content -->
+          </div><!-- end modal-dialog -->
+        </div><!-- end modal -->
+        <!-- where third modal can go once finished -->
+      </div><!-- end container -->
+
     </div><!-- end workpage -->
 
     <div class="container" id="contact">
@@ -126,17 +149,17 @@
         <!-- contact -->
           <div class="form-group">
             <label for="Name">Name</label>
-            <input type="text" class="form-control" placeholder="Enter your name" type="textBox" id="name">
+            <input type="text" class="form-control set" placeholder="Enter your name" type="textBox" id="name">
             <p id="visible-comment1"></p>
           </div><!-- end form-group -->
           <div class="form-group">
             <label for="Email">E-mail</label>
-            <input type="email" class="form-control" placeholder="Enter your email" type="textBox" id="email">
+            <input type="email" class="form-control set" placeholder="Enter your email" type="textBox" id="email">
             <p id="visible-comment2"></p>
           </div><!-- end form-group -->
         </form>
         <label for="message-box">Message</label>
-        <textarea style="resize:none" cols="40" rows="5" class="form-control" placeholder="Place your text here" id="message-box"></textarea>
+        <textarea style="resize:none" cols="40" rows="5" class="form-control set" placeholder="Place your text here" id="message-box"></textarea>
         <p id="char-count"></p>
         <p id="visible-comment3"></p>
         <button type="submit" class="btn btn-default" id="button">Submit</button>
@@ -165,7 +188,7 @@
                   <li><a href="https://github.com/sbmusicfreak15" target="_blank">Github</a></li>
                   <li><a href="https://www.linkedin.com/in/sheldon-bishop" target="_blank">Linked In</a></li>
                   <li><a href="https://stackoverflow.com/users/8653160/sheldon-bishop" target="_blank">Stack Overflow</a></li>
-                  <li><p>Slack Name: Sheldon Bishop</p></li>
+                  <li><a href="https://twitter.com/SheldonBishop5" target="_blank">Twitter</a></li>
                 </ul>
               </h2>
             </div><!-- end col-2 -->
@@ -181,7 +204,7 @@
       <div class="row">
         <div class="col-xs-12 col-md-4">
           <div class="image column">
-            <img src="img/shelly.jpg" alt="image"  class="img-responsive">
+            <img src="img/sheldon_two.jpg" alt="image"  class="img-responsive image">
           </div><!-- end image column -->
         </div><!-- end col -->
         <div class="col-xs-12 col-md-4">
@@ -220,7 +243,7 @@
                  </button>
                </div><!-- end modal-header -->
                <div class="modal-body">
-                 <embed id="modalembed" src="Resume.pdf">
+                 <embed id="modalembed" src="img/resume2.pdf">
                </div><!-- end modal-body -->
              </div><!-- end modal-content -->
            </div><!-- end modal-dialog -->

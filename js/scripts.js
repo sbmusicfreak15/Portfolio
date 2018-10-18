@@ -71,9 +71,9 @@ $(document).ready(function(){
     ");
     var images = $("#work img")
     if(i%2 === 0){
-      $(images[i]).css("border", "2px solid DodgerBlue");
+      $(images[i]).css("border-radius", "5px");
     } else {
-      $(images[i]).css("border", "2px solid salmon");
+      $(images[i]).css("border-radius", "5px");
     };
   };
   $(".work-img").mouseenter(function(){
