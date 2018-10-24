@@ -76,6 +76,23 @@ $(document).ready(function(){
       $(images[i]).css("border-radius", "5px");
     };
   };
+
+  for( var i = 0; i < works2.length; ++i ){
+    $("#work2").append("\
+      <div class='col-sm-3 col-md-3'>\
+        <a href='" + works2[i].url + "' class='work-img'>\
+          <img class='img-responsive' src='" + works2[i].pic + "'>\
+          <span class='info'><p class='proj-title'></p> " + works2[i].title + " </span>\
+        </a>\
+      </div>\
+    ");
+    var images = $("#work2 img")
+    if(i%2 === 0){
+      $(images[i]).css("border-radius", "5px");
+    } else {
+      $(images[i]).css("border-radius", "5px");
+    };
+  };
   $(".work-img").mouseenter(function(){
     $(".info", this).show();
   }).mouseleave(function(){

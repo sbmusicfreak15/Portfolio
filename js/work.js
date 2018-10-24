@@ -6,14 +6,22 @@ var works = [
   },
   {
     title: "Chatty *In Progress*",
-    pic: "img/chatty2.png",
+    pic: "img/chatty.png",
     url: "https://chatty-chatty-bang-bang.herokuapp.com"
+  },
+  {
+    title: "Marker  To-Do List",
+    pic: "img/logo.png",
+    url: "https://marker-list.herokuapp.com/todo_lists"
   },
   {
     title: "Luna Trattoria *In Progress*",
     pic: "img/rest2.jpg",
     url: "https://luna-trattoria.netlify.com"
-  },
+  }
+];
+
+var works2 = [
   {
     title: "Coming Soon!",
     pic: "img/purple.jpg",
